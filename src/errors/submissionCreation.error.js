@@ -1,4 +1,4 @@
-const BaseError = require("./base.error");
+const BaseError = require("./baseError");
 const { StatusCodes } = require("http-status-codes");
 
 class SubmissionCreationError extends BaseError {
