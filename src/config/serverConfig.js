@@ -8,4 +8,6 @@ module.exports = {
     NODE_ENV: process.env.NODE_ENV || "development",
     ATLAS_DB_URL: process.env.ATLAS_DB_URL,
     PROBLEM_ADMIN_SERVICE_URL: process.env.PROBLEM_ADMIN_SERVICE_URL,
+    GEMINI_API_KEY: process.env.GEMINI_API_KEY,
+    SOCKET_SERVICE_HOSTNAME: process.env.SOCKET_SERVICE_HOSTNAME,
 };

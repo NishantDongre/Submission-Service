@@ -19,10 +19,10 @@ const submissionSchema = new mongoose.Schema({
     },
     status: {
         type: String,
-        enum: ["Pending", "Success", "RE", "TLE", "MLE", "WA"],
-        default: "Pending",
+        enum: ["PENDING", "SUCCESS", "RE", "TLE", "MLE", "WA", "CE"],
+        default: "PENDING",
     },
-});
+}, { timestamps: true });
 
 const Submission = mongoose.model("Submission", submissionSchema);
 module.exports = Submission;
